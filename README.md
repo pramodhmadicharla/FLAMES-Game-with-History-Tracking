@@ -24,3 +24,43 @@ Requirements:
 Python (version 3.6 or higher)
 Pillow library for image handling
 webbrowser module for viewing history in a browser
+
+
+
+execution process:
+
+Execution Steps
+Ensure Prerequisites:
+
+Python Installation: Make sure Python 3.6 or higher is installed. You can download it from python.org.
+Install Pillow Library: Install the Pillow library for image processing by running:
+bash
+Copy code
+pip install pillow
+Prepare the Project:
+
+Save the Script:
+Save the provided Python script to a file named flames_game_with_browser_history.py.
+
+Prepare the Image:
+Place your background image (flames1.jpeg) in the directory where the script is located or adjust the image_path in the script to the correct location of your image.
+
+Run the Script:
+
+Open a command prompt or terminal.
+Navigate to the directory where your script is located using cd (change directory). For example:
+bash
+Copy code
+cd C:\Users\LENOVO\projects\flames
+Execute the script by running:
+bash
+Copy code
+python flames_game_with_browser_history.py
+Interact with the Application:
+
+The application will open in full-screen mode with the background image.
+Enter two names and click the "Calculate Relationship" button to view the result.
+Click the "History" button to view past results in your default web browser.
+Manage History:
+
+On the history page in your browser, use the options to refresh or delete all history as needed.
